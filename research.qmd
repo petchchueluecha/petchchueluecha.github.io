@@ -1,0 +1,23 @@
+---
+title: "Research"
+---
+
+# Research
+
+My research focuses on ...
+
+## Current Projects
+
+### Project 1
+
+Description of the project.
+
+### Project 2
+
+Description of the project.
+
+## Research Interests
+
+- Mathematical area
+- Mathematical area
+- Mathematical area
