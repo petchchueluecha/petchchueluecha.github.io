@@ -1,0 +1,23 @@
+---
+title: "Publications"
+---
+
+# Publications
+
+## 2026
+
+**Your Name**
+
+"Paper Title"
+
+Journal / arXiv link
+
+---
+
+## 2025
+
+**Your Name**
+
+"Paper Title"
+
+Journal / arXiv link
