@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Your Name"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      - publications.qmd
+      - teaching.qmd
+      - notes.qmd
+      - cv.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.scss
+    toc: true
