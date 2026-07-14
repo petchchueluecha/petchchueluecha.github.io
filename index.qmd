@@ -1,0 +1,49 @@
+---
+title: "Your Name"
+---
+
+# Your Name
+
+PhD Student in Mathematics  
+Department of Mathematics  
+University Name
+
+Email: your.email@university.edu
+
+---
+
+## About Me
+
+I am a PhD student in mathematics at University Name, working under the supervision of Professor Advisor Name.
+
+My research interests include:
+
+- Area 1
+- Area 2
+- Area 3
+
+---
+
+## Research Interests
+
+My work focuses on mathematical problems involving ...
+
+---
+
+## News
+
+**July 2026**
+
+New update about your research.
+
+**May 2026**
+
+Presented a talk at ...
+
+---
+
+## Selected Publications
+
+1. Author Name. *Paper Title*. Journal, Year.
+
+2. Author Name. *Paper Title*. arXiv, Year.
