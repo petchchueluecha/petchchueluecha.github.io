@@ -1,20 +1,20 @@
 ---
-title: "Your Name"
+title: "Petch Chueluecha"
 ---
 
-# Your Name
+# Suchakree "Petch" Chueluecha
 
 PhD Student in Mathematics  
 Department of Mathematics  
-University Name
+University of Virginia
 
-Email: your.email@university.edu
+Email: guc8ns@virginia.edu
 
 ---
 
 ## About Me
 
-I am a PhD student in mathematics at University Name, working under the supervision of Professor Advisor Name.
+I am a 6th year PhD student in mathematics at the University of Virginia, working under the supervision of Professor Jennifer Morse.
 
 My research interests include:
 
