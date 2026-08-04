@@ -8,42 +8,32 @@ format:
     css: styles.css
 ---
 
-# Suchakree "Petch" Chueluecha
-
 ## About Me
 
 I am a sixth-year PhD candidate in Mathematics at the University of Virginia, 
-working under the supervision of Jennifer Morse. I am currently on the academic 
-job market for Fall 2026.
+working under the supervision of [Jennifer Morse](https://morsej123.github.io/). 
+I expect to complete my PhD in May 2027 and am currently seeking postdoctoral 
+positions beginning in Fall 2027.
 
 I received my B.S. in Mathematics from Lehigh University in 2021.
 
 My research interests lie in **algebraic combinatorics**, particularly in the 
-study of modified Macdonald polynomials, Catalan functions, and $k$-shapes. 
-My work explores connections between algebraic structures and combinatorial 
-objects.
+study of modified Macdonald polynomials, Catalan functions, $k$-Schur functions, 
+and $k$-shapes. My work explores connections between algebraic structures and 
+combinatorial objects.
 
-I was born in Bangkok, Thailand, and moved to the United States at age 18. Outside of mathematics, I enjoy exploring food from different cultures, 
-singing, music, interested in stock technical analysis, chess, and playing the mobile game *Last War*.
+I was born in Bangkok, Thailand, and moved to the United States at age 18. 
+Outside of mathematics, I enjoy exploring food from different cultures, 
+singing and music, studying technical analysis in financial markets, chess, 
+and playing the mobile game *Last War*.
 
+For more information, please see:
+
+- [Curriculum Vitae (PDF)](cv.pdf)
+- [Research Statement (PDF)](research-statement.pdf)
+
+*CV last updated: July 2026*
 ---
-
-## Research
-
-My research focuses on algebraic combinatorics, with an emphasis on symmetric 
-functions and related combinatorial structures.
-
-Current interests include:
-
-- Modified Macdonald polynomials
-- Catalan functions
-- $k$-shapes
-
-My goal is to understand how algebraic structures encode meaningful 
-combinatorial information and how these connections can lead to new results.
-
----
-
 ## Contact
 
 **Office:**  
@@ -55,9 +45,7 @@ guc8ns@virginia.edu
 
 **Pronouns:**  
 He/Him/His
-
 ---
-
 ## Papers, Publications, and Preprints
 
 ### Paper Title
@@ -68,28 +56,7 @@ Description of the paper and its main contributions.
 
 [arXiv Link](#)  
 [Journal Link](#)
-
 ---
-
-### Paper Title
-
-**Authors:** ...
-
-Description of the paper.
-
-[arXiv Link](#)
-
----
-
-## Research Statement and CV
-
-- [Curriculum Vitae (PDF)](cv.pdf)
-- [Research Statement (PDF)](research-statement.pdf)
-
-*CV last updated: July 2026*
-
----
-
 ## Conference and Workshop Participation
 
 ### Formal Power Series and Algebraic Combinatorics (FPSAC)
@@ -102,17 +69,6 @@ July 13–17, 2026
 Presented a talk on:
 
 > Presentation title goes here.
-
----
-
-### Conference Name
-
-Location  
-Date
-
-Presented:
-
-> Talk title.
 
 ---
 
