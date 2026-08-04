@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Petch Chueluecha – Your Name</title>
+<title>Suchakree “Petch” Chueluecha – Your Name</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -73,12 +73,43 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.scss">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -138,27 +169,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#suchakree-petch-chueluecha" id="toc-suchakree-petch-chueluecha" class="nav-link active" data-scroll-target="#suchakree-petch-chueluecha">Suchakree “Petch” Chueluecha</a>
-  <ul class="collapse">
-  <li><a href="#about-me" id="toc-about-me" class="nav-link" data-scroll-target="#about-me">About Me</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research Interests</a></li>
-  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
-  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link" data-scroll-target="#selected-publications">Selected Publications</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Petch Chueluecha</h1>
+<h1 class="title">Suchakree “Petch” Chueluecha</h1>
 </div>
 
 
@@ -177,41 +194,111 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="suchakree-petch-chueluecha" class="level1">
 <h1>Suchakree “Petch” Chueluecha</h1>
-<p>PhD Student in Mathematics<br>
-Department of Mathematics<br>
-University of Virginia</p>
-<p>Email: guc8ns@virginia.edu</p>
-<hr>
 <section id="about-me" class="level2">
 <h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I am a 6th year PhD student in mathematics at the University of Virginia, working under the supervision of Professor Jennifer Morse.</p>
-<p>My research interests include:</p>
+<p>I am a sixth-year PhD candidate in Mathematics at the University of Virginia, working under the supervision of Jennifer Morse. I am currently on the academic job market for Fall 2026.</p>
+<p>I received my B.S. in Mathematics from Lehigh University in 2021.</p>
+<p>My research interests lie in <strong>algebraic combinatorics</strong>, particularly in the study of modified Macdonald polynomials, Catalan functions, and <span class="math inline">\(k\)</span>-shapes. My work explores connections between algebraic structures and combinatorial objects.</p>
+<p>I was born in Bangkok, Thailand, and moved to the United States at age 18. Outside of mathematics, I enjoy exploring food from different cultures, singing, music, interested in stock technical analysis, chess, and playing the mobile game <em>Last War</em>.</p>
+<hr>
+</section>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
+<p>My research focuses on algebraic combinatorics, with an emphasis on symmetric functions and related combinatorial structures.</p>
+<p>Current interests include:</p>
 <ul>
-<li>Area 1</li>
-<li>Area 2</li>
-<li>Area 3</li>
+<li>Modified Macdonald polynomials</li>
+<li>Catalan functions</li>
+<li><span class="math inline">\(k\)</span>-shapes</li>
+</ul>
+<p>My goal is to understand how algebraic structures encode meaningful combinatorial information and how these connections can lead to new results.</p>
+<hr>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p><strong>Office:</strong><br>
+Kerchof Hall 114<br>
+University of Virginia</p>
+<p><strong>Email:</strong><br>
+guc8ns@virginia.edu</p>
+<p><strong>Pronouns:</strong><br>
+He/Him/His</p>
+<hr>
+</section>
+<section id="papers-publications-and-preprints" class="level2">
+<h2 class="anchored" data-anchor-id="papers-publications-and-preprints">Papers, Publications, and Preprints</h2>
+<section id="paper-title" class="level3">
+<h3 class="anchored" data-anchor-id="paper-title">Paper Title</h3>
+<p><strong>Authors:</strong> Suchakree Petch Chueluecha, Collaborator Name</p>
+<p>Description of the paper and its main contributions.</p>
+<p><a href="#">arXiv Link</a><br>
+<a href="#">Journal Link</a></p>
+<hr>
+</section>
+<section id="paper-title-1" class="level3">
+<h3 class="anchored" data-anchor-id="paper-title-1">Paper Title</h3>
+<p><strong>Authors:</strong> …</p>
+<p>Description of the paper.</p>
+<p><a href="#">arXiv Link</a></p>
+<hr>
+</section>
+</section>
+<section id="research-statement-and-cv" class="level2">
+<h2 class="anchored" data-anchor-id="research-statement-and-cv">Research Statement and CV</h2>
+<ul>
+<li><a href="cv.pdf">Curriculum Vitae (PDF)</a></li>
+<li><a href="research-statement.pdf">Research Statement (PDF)</a></li>
+</ul>
+<p><em>CV last updated: July 2026</em></p>
+<hr>
+</section>
+<section id="conference-and-workshop-participation" class="level2">
+<h2 class="anchored" data-anchor-id="conference-and-workshop-participation">Conference and Workshop Participation</h2>
+<section id="formal-power-series-and-algebraic-combinatorics-fpsac" class="level3">
+<h3 class="anchored" data-anchor-id="formal-power-series-and-algebraic-combinatorics-fpsac">Formal Power Series and Algebraic Combinatorics (FPSAC)</h3>
+<p><strong>University of Washington, Seattle</strong><br>
+July 13–17, 2026</p>
+<p><strong>May 2026</strong></p>
+<p>Presented a talk on:</p>
+<blockquote class="blockquote">
+<p>Presentation title goes here.</p>
+</blockquote>
+<hr>
+</section>
+<section id="conference-name" class="level3">
+<h3 class="anchored" data-anchor-id="conference-name">Conference Name</h3>
+<p>Location<br>
+Date</p>
+<p>Presented:</p>
+<blockquote class="blockquote">
+<p>Talk title.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="teaching" class="level2">
+<h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
+<section id="university-of-virginia" class="level3">
+<h3 class="anchored" data-anchor-id="university-of-virginia">University of Virginia</h3>
+<section id="instructor-teaching-assistant" class="level4">
+<h4 class="anchored" data-anchor-id="instructor-teaching-assistant">Instructor / Teaching Assistant</h4>
+<p>Course Name<br>
+Semester Year</p>
+<ul>
+<li>Developed course materials and examples.</li>
+<li>Led discussions and problem-solving sessions.</li>
+<li>Supported students in understanding mathematical concepts.</li>
 </ul>
 <hr>
 </section>
-<section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
-<p>My work focuses on mathematical problems involving …</p>
-<hr>
 </section>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<p><strong>July 2026</strong></p>
-<p>FPSAC FPSAC 2026</p>
-<p><strong>May 2026</strong></p>
-<p>Presented a talk at …</p>
-<hr>
 </section>
-<section id="selected-publications" class="level2">
-<h2 class="anchored" data-anchor-id="selected-publications">Selected Publications</h2>
-<ol type="1">
-<li><p>Author Name. <em>Paper Title</em>. Journal, Year.</p></li>
-<li><p>Author Name. <em>Paper Title</em>. arXiv, Year.</p></li>
-</ol>
+<section id="awards-and-honors" class="level2">
+<h2 class="anchored" data-anchor-id="awards-and-honors">Awards and Honors</h2>
+<ul>
+<li>International Mathematical Olympiad (IMO) Bronze Medal</li>
+<li>Additional mathematics competition achievements</li>
+</ul>
 
 
 </section>
@@ -623,4 +710,5 @@ University of Virginia</p>
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
