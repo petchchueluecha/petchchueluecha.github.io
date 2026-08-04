@@ -34,7 +34,7 @@ and playing the mobile game *Last War*.
 
 ::: {.column width="30%"}
 
-![](images/profilepic.jpg){width=95% style="margin-left: 5px;"}
+![](images/profilepic.jpg){width=90%}
 :::
 
 For more information, please see:
