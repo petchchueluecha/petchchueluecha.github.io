@@ -24,17 +24,21 @@ I received my B.S. in Mathematics from Lehigh University in 2021.
 
 My research interests lie in **algebraic combinatorics**, particularly in the
 study of modified Macdonald polynomials, Catalan functions, $k$-Schur functions,
-and $k$-shapes. My work explores connections between algebraic structures and
-combinatorial objects.
+and $k$-shapes.
 
 I was born in Bangkok, Thailand, and moved to the United States at age 18.
 Outside of mathematics, I enjoy exploring food from different cultures,
 singing and music, studying technical analysis in financial markets, chess,
 and playing the mobile game *Last War*.
 
+:::
+
 ::: {.column width="30%"}
 
 ![](images/profilepic.jpg){width=90%}
+
+:::
+
 :::
 
 For more information, please see:
