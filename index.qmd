@@ -22,7 +22,7 @@ positions beginning in Fall 2027.
 
 I received my B.S. in Mathematics from Lehigh University in 2021.
 
-My research interests lie in **algebraic combinatorics**, particularly in the
+My research interests lie in algebraic combinatorics, particularly in the
 study of modified Macdonald polynomials, Catalan functions, $k$-Schur functions,
 and $k$-shapes.
 
